@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+2 <html lang="pt-br">
+3 <head>
+4 <meta charset="UTF-8">
+5 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+6 <title>Gerador de senha</title>
+7 <link rel="stylesheet" href="style.css">
+8 </head>
+9 <body>
+10 <section class="conteudo">
+11 <div class="conteudo-titulo">
+12 <img src="unlock.svg" alt="cadeado fechado">
+13 <h2 class="titulo-principal">Gerador de senhas</h2>
+14 <h3 class="titulo-secundario">Gere instantaneamente uma senha aleatória e segura</h3>
+15 </div>
+16 <div class="conteudo-senha">
+17 <label for="senha">Senha</label>
+18 <input name="senha" type="text" id="campo-senha">
+19 </div>
+20 <div class="parametro">
+21 <h3 class="parametro-titulo">Personalize sua senha</h3>
+22 <div class="parametro-coluna__senha">
+23 <div class="parametro-senha">
+24 <h4 class="parametro-senha__titulo">Número de caracteres</h4>
+25 <div class="parametro-senha-botoes">
+26 <button class="parametro-senha__botao">-</button>
+27 <p class="parametro-senha__texto">12</p>
+28 <button class="parametro-senha__botao">+</button>
+29 </div>
+30 </div>
+31 <div class="parametro-senha">
+32 <h4 class="parametro-senha__titulo">Características da senha</h4>
+33 <div class="parametro-senha-checkbox">
+34 <input name="maiusculo" type="checkbox" class="checkbox" checked>
+35 <label for="maiusculo">Letras maiúsculas</label>
+36 </div>
+37 <div class="parametro-senha-checkbox">
+38 <input name="minusculo" type="checkbox" class="checkbox">
+39 <label for="minusculo">Letras minúsculas</label>
+40 </div>
+41 <div class="parametro-senha-checkbox">
+42 <input name="numero" type="checkbox" class="checkbox">
+43 <label for="numero">Números</label>
+44 </div>
+45 <div class="parametro-senha-checkbox">
+46 <input name="simbolo" type="checkbox" class="checkbox">
+47 <label for="simbolo">Símbolos</label>
+48 </div>
+49 </div>
+50 <div class="parametro-senha">
+51 <h4 class="parametro-senha__titulo">Força da senha</h4>
+52 <div class="barra"></div> <!--Barra com tom de azul mais claro-->
+53 <div class="forca media"></div> <!--Bara vermelha-->
+54 <div class="parametro-senha-textos"> <!--Cria a legenda abaixo das cores-->
+55 <p>Fraca</p>
+56 <p>Média</p>
+57 <p>Forte</p>
+58 </div>
+59 </div>
+60 </div>
+61 <div class="parametro-senha">
+62 <h4 class="parametro-senha__titulo">Força da senha</h4>
+63 </div>
+64 </div>
+65 </div>
+66 </section>
+67 </body>
+68 </html>
