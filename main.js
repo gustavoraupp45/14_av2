@@ -3,7 +3,8 @@ function aumentaTamanho() {
         // tamanhoSenha = tamanhoSenha+1;
         tamanhoSenha++;
     }
-    numeroSenha.textContent = tamanhoSenha;
+    numeroSenha.textContent = geraSenha();
+;
     geraSenha();
 }
 
