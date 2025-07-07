@@ -53,7 +53,8 @@ let numeroAleatorio = Math.random() * alfabeto.length;
 numeroAleatorio = Math.floor(numeroAleatorio);
 senha = senha + alfabeto[numeroAleatorio];
 }
-campoSenha.value = senha;classificaSenha();
+campoSenha.value = senha;
+ classificaSenha();
 
 }
  
